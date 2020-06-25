@@ -7,16 +7,10 @@ $(window).load(function () {
     var titLiNum = titLi.size(); //제목 리스트 Li 개수
     var txtLi = $(txt_list).children(); // 텍스트 리스트 Li
     var idx = 0;
-    var windowWidth
+    var windowWidth = $(window).width();
 
 
-    Reset();
     inEvent();
-
-    function Reset() { //window사이즈를 측정해주는 함수
-        windowWidth = $(window).width();
-    }
-
 
     function inEvent() { //이벤트 적용 함수
         $(window).on('resize', Reset);
