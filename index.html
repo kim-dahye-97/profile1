@@ -108,7 +108,7 @@
                     <li>
                         <p>한국형 웹 콘텐츠 접근성 지침(KWCAG 2.1) 준수</p>
                         <p>시멘틱 마크업을 통한 의미있는 구조 설계</p>
-                        <p>Media Query를 이용한 반응형 사이트 구축</p>
+                        <p>반응형 & 적응형 웹사이트 구축</p>
                         <p>CSS 3.0 &amp; 크로스브라우징</p>
                         <p>SASS를 이용한 프리프로세싱</p>
                     </li>
@@ -116,15 +116,15 @@
                     <!--javascript 텍스트 내용-->
                     <li>
                         <p>비동기 통신(ajax)에 대한 이해</p>
-                        <p>jQuery DOM을 이용한<br>메인 메뉴, 반응형 비주얼 슬라이드, <br>2depth animation 등 구현</p>
+                        <p>jQuery DOM을 이용한<br>메인 메뉴, 반응형 비주얼 슬라이드, <br>2depth menu animation 등 구현</p>
                     </li>
 
                     <!--others 텍스트 내용-->
                     <li>
                         <p>UI / UX에 대한 이해</p>
                         <p>Photoshop, Figma를  활용한 웹 사이트 시안 제작</p>
-                        <p>Premiere를 활용한 여행영상 제작</p>
-                        <p>After Effect를 활용한 모션 인포그래픽 제작</p>
+                        <p>Premiere, After Effect를 활용한 영상 제작</p>
+                        <p>Github 관리</p>
                     </li>
                 </ul>
             </div>
@@ -161,17 +161,35 @@
 
 
         <div id="work_list">
-            <!--포트폴리오1-->
+            <!--프로필페이지2 포트폴리오-->
             <div id="work1">
+                <!--포트폴리오 목업 왼쪽 사진 영역-->
+                <div class="work_left">
+                    <img src="img/mockup_01.png" alt="프로필 버전2 사이트">
+                </div>
+
+
+                <!--포트폴리오 오른쪽 텍스트 영역-->
+                <div class="work_right">
+                    <div class="work_txtbox">
+                        <p class="work_subtit"><a href="#">Profile ver.2</a></p>
+                        <p class="txt">오직 HTML과 CSS만을 이용하여 구현한 사이트입니다. <mark>JQUERY없이</mark> checkbox속성과 animation속성을 이용하여 메인메뉴를 구성하였고, 모든 스타일은 <mark>SCSS</mark>를 사용하여 유지보수가 용이하도록 구현하였습니다.</p>
+                        <span class="visit_btn"><a href="http://dahyeprofile.dothome.co.kr/" title="프로필 버전2 바로가기" target="_blank">VIEW SITE</a></span>
+                    </div>
+                </div>
+            </div>
+
+            <!--트로피카나 포트폴리오-->
+            <div id="work2">
                 <!--포트폴리오 왼쪽 목업 사진 영역-->
                 <div class="work_left">
-                    <img src="img/mockup_01.png" alt="트로피카나 리뉴얼 사이트">
+                    <img src="img/mockup_02.png" alt="트로피카나 리뉴얼 사이트">
                 </div>
 
                 <!--포트폴리오 오른쪽 텍스트 영역-->
                 <div class="work_right">
                     <div class="work_txtbox">
-                        <p class="work_subtit"><a href="#">Webstandard Site</a></p>
+                        <p class="work_subtit"><a href="#">Tropicana</a></p>
                         <p class="txt">기존에 없던 사이트를 기획부터, 디자인,코딩까지 <mark>100% 창작</mark>한
                             표준형 웹사이트입니다. <mark>웹 접근성</mark>을 고려하여 <mark>skip 메뉴</mark>를
                             삽입하였고, 메인페이지와 서브페이지는 반복되는 부분은 <mark>인클루드</mark>를 통해 효율적으로 코딩했습니다.</p>
@@ -180,18 +198,38 @@
                 </div>
             </div>
 
-            <!--포트폴리오2-->
-            <div id="work2">
+            <!-- 케이투 포트폴리오 -->
+            <div id="work3">
                 <!--포트폴리오 목업 왼쪽 사진 영역-->
                 <div class="work_left">
-                    <img src="img/mockup_02.png" alt="벤자민무어 리뉴얼 사이트">
+                    <img src="img/mockup_03.png" alt="K2 Korea 사이트">
                 </div>
 
 
                 <!--포트폴리오 오른쪽 텍스트 영역-->
                 <div class="work_right">
                     <div class="work_txtbox">
-                        <p class="work_subtit"><a href="#">Renewal Site</a></p>
+                        <p class="work_subtit"><a href="#">K2 Korea</a></p>
+                        <p class="txt">해상도 980px이상부터 반응형이고, 980px이하부터는 모바일 버전으로 열리는 <mark>적응형 웹사이트</mark>입니다. 또한, PC버전에서는 각 서브메뉴의 높이에 따라 <mark>유동적으로 변화하는 2 depth navigation</mark>을 구현하였습니다.</p>
+                        <span class="visit_btn"><a href="http://k2korea.dothome.co.kr/" title="K2 Korea 바로가기" target="_blank">VIEW SITE</a></span>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <!--벤자민무어 포트폴리오-->
+            <div id="work4">
+                <!--포트폴리오 목업 왼쪽 사진 영역-->
+                <div class="work_left">
+                    <img src="img/mockup_04.png" alt="벤자민무어 리뉴얼 사이트">
+                </div>
+
+
+                <!--포트폴리오 오른쪽 텍스트 영역-->
+                <div class="work_right">
+                    <div class="work_txtbox">
+                        <p class="work_subtit"><a href="#">BenjaminMoore</a></p>
                         <p class="txt">모바일 버전에서는 사용자의 편의성을 고려하여,
                             터치에 반응하는 <mark>swiper 플러그인</mark>을 연결하였으며,
                             이 외에 PC버전 메뉴, 모바일 아코디언 메뉴,
@@ -202,18 +240,18 @@
                 </div>
             </div>
 
-            <!--포트폴리오3-->
-            <div id="work3">
+            <!--현대카드 포트폴리오-->
+            <div id="work5">
                 <!--포트폴리오 목업 왼쪽 사진 영역-->
                 <div class="work_left">
-                    <img src="img/mockup_03.png" alt="현대카드 리뉴얼 사이트">
+                    <img src="img/mockup_05.png" alt="현대카드 리뉴얼 사이트">
                 </div>
 
 
                 <!--포트폴리오 오른쪽 텍스트 영역-->
                 <div class="work_right">
                     <div class="work_txtbox">
-                        <p class="work_subtit"><a href="#">Renewal Site</a></p>
+                        <p class="work_subtit"><a href="#">Hyundai Card</a></p>
                         <p class="txt">풀페이지 디자인으로 반응형이 되지 않는 사이트를
                             Media Query를 통해 반응형으로 리뉴얼 하였고,
                             배너 슬라이드를 <mark>숫자형 페이저</mark>와 <mark>전후 버튼</mark>이 모두
@@ -223,23 +261,7 @@
                 </div>
             </div>
 
-            <!--포트폴리오4-->
-            <div id="work4">
-                <!--포트폴리오 목업 왼쪽 사진 영역-->
-                <div class="work_left">
-                    <img src="img/mockup_04.png" alt="프로필 버전2 사이트">
-                </div>
-
-
-                <!--포트폴리오 오른쪽 텍스트 영역-->
-                <div class="work_right">
-                    <div class="work_txtbox">
-                        <p class="work_subtit"><a href="#">Profile ver.2</a></p>
-                        <p class="txt">오직 HTML과 CSS만을 이용하여 구현한 사이트입니다. <mark>JQUERY없이</mark> checkbox속성과 animation속성을 이용하여 메인메뉴를 구성하였고, 모든 스타일은 <mark>SCSS</mark>를 사용하여 유지보수가 용이하도록 구현하였습니다.</p>
-                        <span class="visit_btn"><a href="http://dahyeprofile.dothome.co.kr/" title="현대카드 바로가기" target="_blank">VIEW SITE</a></span>
-                    </div>
-                </div>
-            </div>
+            
         </div>
     </section>
 

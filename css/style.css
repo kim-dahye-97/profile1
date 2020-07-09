@@ -756,7 +756,7 @@ section#skills .contents_tit h2 a:before{
 
 section#work {/*수정부분 : 970*포폴개수+970*/
     width: 100%;
-    height: 4850px;
+    height: 5820px;
 }
 
 /*------------work 제목 그림자------------*/
@@ -777,10 +777,10 @@ section#work .contents_tit h2 a:before{
 
 #work_list{
     width: 100%;
-    height: 3880px; /*수정부분 : 970*포폴개수*/
+    height: 4850px; /*수정부분 : 970*포폴개수*/
 }
 
-#work1,#work2,#work3,#work4 {  /*수정부분 : 포폴 아이디 추가*/
+#work1,#work2,#work3,#work4,#work5 {  /*수정부분 : 포폴 아이디 추가*/
     position: relative;
     width: 100%;
     height: 970px;

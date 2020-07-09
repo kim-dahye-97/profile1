@@ -22,10 +22,10 @@
     html,body{font-size: 13px;}
     section#about{height: 1540px;}
     section#skills{height: 3080px;}
-    section#work{height: 3850px;}/*수정부분 : 770*(포폴개수+1)*/
+    section#work{height: 4620px;}/*수정부분 : 770*(포폴개수+1)*/
     section#contact{height: 1540px;}
     #skills1{height: 2310px;}
-    #main,.contents_tit,#about1,#work1,#work2,#work3,#work4,#contact1{/*수정부분 : 포폴 아이디 추가*/
+    #main,.contents_tit,#about1,#work1,#work2,#work3,#work4,#work5,#contact1{/*수정부분 : 포폴 아이디 추가*/
             height: 770px;
         }
     
@@ -40,7 +40,7 @@
     #tit_list li:nth-child(1) .skills_subtit a:after,#tit_list li:nth-child(2) .skills_subtit a:after{top: 135px;}
     
     /*work*/
-    #work_list{height:3080px ;} /*수정부분 : 770*포폴개수*/
+    #work_list{height:3850px ;} /*수정부분 : 770*포폴개수*/
     .work_txtbox .work_subtit a{font-size: 39px;}
     
     /*contact 데코 요소*/
