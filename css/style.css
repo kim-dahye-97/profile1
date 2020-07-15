@@ -4,7 +4,7 @@
 html,
 body {
     width: 100%;
-    font-size: 16px;
+    font-size: 13px;
     overflow-x:hidden;
 }
 
@@ -75,10 +75,10 @@ header #menu_btn a {
 #t_stick {
     display: block;
     width: 35px;
-    height: 3px;
-    background:#5e62d1;
+    height: 0px;
     margin: 22.5px 16px 16px 16px;
-    border-radius: 1px;
+    border-bottom: 3.5px solid #5e62d1;
+    border-radius: 3.5px;
     -webkit-transition: .5s ease;
     -moz-transition: .5s ease;
     -ms-transition: .5s ease;
@@ -86,14 +86,13 @@ header #menu_btn a {
     transition: .5s ease;
 }
 
-
 #b_stick {
     display: block;
     width: 35px;
-    height: 3px;
-    background:#5e62d1;
+    height: 0px;
     margin: 0 16px;
-    border-radius: 1px;
+    border-bottom: 3.5px solid #5e62d1;
+    border-radius: 3.5px;
     -webkit-transition: .5s ease;
     -moz-transition: .5s ease;
     -ms-transition: .5s ease;
@@ -108,7 +107,7 @@ header #menu_btn a {
     -ms-transform: translateY(9.5px) rotate(45deg);
     -o-transform: translateY(9.5px) rotate(45deg);
     transform: translateY(9.5px) rotate(45deg);
-    background: #5fecc8;
+    border-bottom: 3.5px solid #5fecc8;
 }
 
 
@@ -118,7 +117,7 @@ header #menu_btn a {
     -ms-transform: translateY(-9.5px) rotate(-45deg);
     -o-transform: translateY(-9.5px) rotate(-45deg);
     transform: translateY(-9.5px) rotate(-45deg);
-    background: #5fecc8;
+    border-bottom: 3.5px solid #5fecc8;
 }
 
 
@@ -347,9 +346,6 @@ header #menu_btn a {
     height: 390px;
     border-radius: 50%;
     background: #5e62d1;
-    left: 0;
-    right: 0;
-    top: 30%;
     margin: auto;
     -webkit-animation:moveY1 1.5s infinite alternate;
     -moz-animation:moveY1 1.5s infinite alternate;
@@ -393,7 +389,7 @@ header #menu_btn a {
     border: 3px solid #5e62d1;
     background: #5fecc8;
     left: 14%;
-    bottom: 30%;
+    bottom: 40%;
      -webkit-animation:width1 2s ease-in;
     -moz-animation:width1 2s ease-in;
     -ms-animation:width1 2s ease-in;
@@ -408,7 +404,7 @@ header #menu_btn a {
     border-radius: 10px;
     border: 3px solid #5e62d1;
     right: 25%;
-    bottom: 15%;
+    bottom: 25%;
      -webkit-animation:width2 1s ease-in;
     -moz-animation:width2 1s ease-in;
     -ms-animation:width2 1s ease-in;
@@ -461,7 +457,7 @@ section#about> .contents_tit {
     height: 100%;
     color: #5fecc8;
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 10em;
+    font-size: 9em;
     font-weight: 700;
     text-align: center;
     z-index: 1;
@@ -540,8 +536,8 @@ mark{
 #about_txt {
     color: #333;
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 1.2em;
-    font-weight: 400;
+    font-size: 1.3em;
+    font-weight: 500;
     text-align: left;
     line-height: 1.8;
 }
@@ -701,7 +697,7 @@ section#skills .contents_tit h2 a:before{
     position: absolute;
     display: block;
     width: 100%;
-    top: 165px;
+    top: 135px;
     left: 7px;
     color: #5e62d1;
     text-shadow: -1px 0 #e0e2ee, 1px 0 #e0e2ee, 0 -1px #e0e2ee, 0 1px #e0e2ee;
@@ -730,7 +726,7 @@ section#skills .contents_tit h2 a:before{
     position: absolute;
     display: block;
     width: 100%;
-    top: 165px;
+    top: 135px;
     left: 7px;
     color: #5e62d1;
     text-shadow: -1px 0 #e0e2ee, 1px 0 #e0e2ee, 0 -1px #e0e2ee, 0 1px #e0e2ee;
@@ -872,8 +868,8 @@ section#work .contents_tit h2 a:before{
 .work_txtbox .visit_btn {
     position: absolute;
     display: block;
-    width: 180px;
-    height: 55px;
+    width: 130px;
+    height: 45px;
     -webkit-transition: .5s ease;
     -moz-transition: .5s ease;
     -ms-transition: .5s ease;
@@ -908,8 +904,8 @@ section#work .contents_tit h2 a:before{
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 7px;
-    left: 6px;
+    top: 4px;
+    left: 5px;
     border: 2px solid #5e62d1;
 }
 
@@ -922,9 +918,9 @@ section#work .contents_tit h2 a:before{
     height: 100%;
     color: white;
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
-    line-height: 55px;
+    line-height: 45px;
     text-align: center;
     -webkit-transition: .5s ease;
     -moz-transition: .5s ease;

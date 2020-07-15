@@ -5,12 +5,11 @@
 /*-------------------PC버전  (하프스크롤 가능)----------------------*/
 @media screen and (max-width:1920px){
     html,body{width: 100%;}
-    
 }
 
 /*-------------------테블릿 버전 (하프스크롤 가능)--------------------*/
 @media screen and (max-width:1200px){
-    html,body{font-size: 14px;}
+    html,body{font-size: 12px;}
     
     /*skills 서브타이틀 그림자 효과*/
     #tit_list li:nth-child(1) .skills_subtit a:after,#tit_list li:nth-child(2) .skills_subtit a:after{
@@ -19,7 +18,7 @@
 }
 
 @media screen and (max-width:1024px){
-    html,body{font-size: 13px;}
+    html,body{font-size: 11px;}
     section#about{height: 1540px;}
     section#skills{height: 3080px;}
     section#work{height: 4620px;}/*수정부분 : 770*(포폴개수+1)*/

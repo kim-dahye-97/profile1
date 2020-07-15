@@ -2,58 +2,58 @@
 /*large_circle1*/
 
 @-webkit-keyframes moveY1{
-    from{top:27%;}
-    to{top: 30%;}
+    from{top:17%;}
+    to{top: 20%;}
 }
 
 @-moz-keyframes moveY1{
-    from{top:27%;}
-    to{top: 30%;}
+    from{top:17%;}
+    to{top: 20%;}
 }
 
 @-ms-keyframes moveY1{
-   from{top:27%;}
-   to{top: 30%;}
+    from{top:17%;}
+    to{top: 20%;}
 }
 
 @-o-keyframes moveY1{ 
-    from{top:27%;}
-    to{top: 30%;}
+    from{top:17%;}
+    to{top: 20%;}
 }
 
 
 /*small_circle*/
 
 @-webkit-keyframes moveY2{
-    0%{top:17%; right: 27%;}
-    30%{ top: 20%; right: 30%;}
-    50%{top:17%; right: 32%;}
-    70%{top:15%; right: 30%;}
-    100%{top:17%; right: 27%;}
+    0%{top: 7%; right: 17%;}
+    30%{ top: 10%; right: 10%;}
+    50%{top: 7%; right: 22%;}
+    70%{top: 3%; right: 20%;}
+    100%{top: 7%; right: 17%;}
 }
 
 @-moz-keyframes moveY2{
-    0%{top:17%; right: 27%;}
-    30%{ top: 20%; right: 30%;}
-    50%{top:17%; right: 32%;}
-    70%{top:15%; right: 30%;}
-    100%{top:17%; right: 27%;}
+    0%{top: 7%; right: 17%;}
+    30%{ top: 10%; right: 10%;}
+    50%{top: 7%; right: 22%;}
+    70%{top: 3%; right: 20%;}
+    100%{top: 7%; right: 17%;}
 }
 
 @-ms-keyframes moveY2{
-    0%{top:17%; right: 27%;}
-    30%{ top: 20%; right: 30%;}
-    50%{top:17%; right: 32%;}
-    70%{top:15%; right: 30%;}
-    100%{top:17%; right: 27%;}
+    0%{top: 7%; right: 17%;}
+    30%{ top: 10%; right: 10%;}
+    50%{top: 7%; right: 22%;}
+    70%{top: 3%; right: 20%;}
+    100%{top: 7%; right: 17%;}
 }
 
 @-o-keyframes moveY2{ 
-    0%{top:17%; right: 27%;}
-    30%{ top: 20%; right: 30%;}
-    50%{top:17%; right: 32%;}
-    70%{top:15%; right: 30%;}
-    100%{top:17%; right: 27%;}
+    0%{top: 7%; right: 17%;}
+    30%{ top: 10%; right: 10%;}
+    50%{top: 7%; right: 22%;}
+    70%{top: 3%; right: 20%;}
+    100%{top: 7%; right: 17%;}
 }
 
 
