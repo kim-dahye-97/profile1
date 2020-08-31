@@ -12,8 +12,8 @@
     html,body{font-size: 12px;}
     
     /*skills 서브타이틀 그림자 효과*/
-    #tit_list li:nth-child(1) .skills_subtit a:after,#tit_list li:nth-child(2) .skills_subtit a:after{
-        top: 145px;
+    #tit_list li:nth-child(1) .skills_subtit a::after,#tit_list li:nth-child(2) .skills_subtit a::after{
+        top: 125px;
     }
 }
 
@@ -21,10 +21,10 @@
     html,body{font-size: 11px;}
     section#about{height: 1540px;}
     section#skills{height: 3080px;}
-    section#work{height: 4620px;}/*수정부분 : 770*(포폴개수+1)*/
+    section#work{height: 5390px;}/*수정부분 : 770*(포폴개수+1)*/
     section#contact{height: 1540px;}
     #skills1{height: 2310px;}
-    #main,.contents_tit,#about1,#work1,#work2,#work3,#work4,#work5,#contact1{/*수정부분 : 포폴 아이디 추가*/
+    #main,.contents_tit,#about1,#work1,#work2,#work3,#work4,#work5,#work6,#contact1{/*수정부분 : 포폴 아이디 추가*/
             height: 770px;
         }
     
@@ -36,10 +36,10 @@
     #about1  #about_txtbox{width: 41%; height:400px; padding-right: 5%;}
     
     /* skills 서브타이틀 그림자s효과*/
-    #tit_list li:nth-child(1) .skills_subtit a:after,#tit_list li:nth-child(2) .skills_subtit a:after{top: 135px;}
+    #tit_list li:nth-child(1) .skills_subtit a:after,#tit_list li:nth-child(2) .skills_subtit a:after{top: 115px;}
     
     /*work*/
-    #work_list{height:3850px ;} /*수정부분 : 770*포폴개수*/
+    #work_list{height:4620px ;} /*수정부분 : 770*포폴개수*/
     .work_txtbox .work_subtit a{font-size: 39px;}
     
     /*contact 데코 요소*/
@@ -59,7 +59,7 @@
     #main{height: 1540px;}
     #main #main_left,#main #main_right{position: relative; width: 100%; float: none; height: 50%;}
     #change{display: none;}
-    section#about .contents_tit{background: #5E62D1;}
+    section#skills>.contents_tit{background: #5E62D1;}
 
     /*skills*/
     #txt_list li{padding: 50% 10%;}

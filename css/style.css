@@ -390,11 +390,11 @@ header #menu_btn a {
     background: #5fecc8;
     left: 14%;
     bottom: 40%;
-     -webkit-animation:width1 2s ease-in;
+    -webkit-animation:width1 2s ease-in;
     -moz-animation:width1 2s ease-in;
     -ms-animation:width1 2s ease-in;
     -o-animation:width1 2s ease-in;
-     animation:width1 2s ease-in;
+    animation:width1 2s ease-in;
 }
 
 #round_sqr2 {
@@ -405,7 +405,7 @@ header #menu_btn a {
     border: 3px solid #5e62d1;
     right: 25%;
     bottom: 25%;
-     -webkit-animation:width2 1s ease-in;
+    -webkit-animation:width2 1s ease-in;
     -moz-animation:width2 1s ease-in;
     -ms-animation:width2 1s ease-in;
     -o-animation:width2 1s ease-in;
@@ -413,30 +413,14 @@ header #menu_btn a {
 }
 
 
-
-/*------------about 섹션------------*/
-
-section#about {
-    position: relative;
-    clear: both;
-    height: 1940px;
-}
-
 /*------------(공통) 콘텐츠 제목------------*/
-.contents_tit {
+.contents_tit{
     width: 100%;
     height: 970px;
     background:#5e62d1;
 }
 
-/*------------about 제목------------*/
-section#about> .contents_tit {
-    background: url(../img/pattern.png) center center repeat;
-    background-color:#e0e2ee;
-}
-
-
-.contents_tit h2 {
+.contents_tit h2{
     position: relative;
     width: 100%;
     height: 160px;
@@ -450,7 +434,7 @@ section#about> .contents_tit {
     
 }
 
-.contents_tit h2 a {
+.contents_tit h2 a{
     position: relative;
     display: block;
     width: 100%;
@@ -464,101 +448,24 @@ section#about> .contents_tit {
     opacity: 0;
 }
 
-section#about .contents_tit h2 a:before{
-    content: 'ABOUT';
-    position: absolute;
-    display: block;
-    width: 100%;
-    top: 10px;
-    left: 10px;
-    color: #5e62d1;
-    text-shadow: -1px 0 #5fecc8, 1px 0 #5fecc8, 0 -1px #5fecc8, 0 1px #5fecc8;
-    /*왼쪽 오른쪽 위쪽 아래쪽에 text-shadow를 삽입 IE에서 크로스 브라우징 안되는 text-fill 효과 대신 사용*/
-    z-index: -1;
-}
-
-/*------------about 내용------------*/
-
-#about1 {
-    position: relative;
-    width: 100%;
-    height: 970px;
-    background: url(../img/pattern.png) center center repeat;
-    background-color: #e0e2ee;
-}
-
-/*about 창 일러스트*/
-#about1 img {
-    padding: 260px 9% 0 20%;
-    width:0;
-    height: auto;
-    opacity: 0;
-    float: left;
-    -webkit-transition: .7s ease;
-    -moz-transition: .7s ease;
-    -ms-transition: .7s ease;
-    -o-transition: .7s ease;
-    transition: .7s ease;
-}
-
-#about1 img.grow{
-    width: 25%;
-    opacity: 1;
-}
-
-
-/*about 텍스트박스*/
-#about1  #about_txtbox {
-    padding-top: 260px;
-    padding-right: 20%;
-    width: 26%;
-    height: 460px;
-    opacity: 0;
-    float: left;
-}
-
-#about_subtit {
-    padding: 20px 0;
-    color: #333;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-size: 1.8em;
-    font-weight: 700;
-    text-align: left;
-    line-height: 1.5;
-}
-
-/*형광펜 효과*/
-mark{
-    background-color: #afbbff;
-}
-
-
-#about_txt {
-    color: #333;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-size: 1.3em;
-    font-weight: 500;
-    text-align: left;
-    line-height: 1.8;
-}
-
-
-
 
 /*------------skills 섹션------------*/
-
 section#skills {
     width: 100%;
     height: 3880px;
 }
 
-
 section#skills:before{
     clear: both;
 }
 
-/*------------skills 제목 그림자------------*/
+/* skills 제목 배경 */
+section#skills>.contents_tit{
+    background: url(../img/pattern.png) center center repeat;
+    background-color:#e0e2ee;
+}
 
+/*------------skills 제목 그림자------------*/
 section#skills .contents_tit h2 a:before{
     content: 'SKILLS';
     position: absolute;
@@ -749,10 +656,9 @@ section#skills .contents_tit h2 a:before{
 }
 
 /*-------------------work 섹션-------------------*/
-
 section#work {/*수정부분 : 970*포폴개수+970*/
     width: 100%;
-    height: 5820px;
+    height: 6790px;
     background-image: url(../img/pattern.png);
     background-color:#e0e2ee;
 }
@@ -772,13 +678,13 @@ section#work .contents_tit h2 a:before{
     z-index: -1;
 }
 
-
 #work_list{
     width: 100%;
-    height: 4850px; /*수정부분 : 970*포폴개수*/
+    height: 5820px; /*수정부분 : 970*포폴개수*/
 }
 
-#work1,#work2,#work3,#work4,#work5 {  /*수정부분 : 포폴 아이디 추가*/
+
+#work1,#work2,#work3,#work4,#work5,#work6 {  /*수정부분 : 포폴 아이디 추가*/
     position: relative;
     width: 100%;
     height: 970px;
@@ -944,6 +850,95 @@ section#work .contents_tit h2 a:before{
 .work_txtbox .visit_btn:hover:after {
     width: 100%;
 }
+
+
+/*------------about 섹션------------*/
+
+section#about {
+    position: relative;
+    clear: both;
+    height: 1940px;
+}
+
+section#about .contents_tit h2 a:before{
+    content: 'ABOUT';
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 10px;
+    left: 10px;
+    color: #5e62d1;
+    text-shadow: -1px 0 #5fecc8, 1px 0 #5fecc8, 0 -1px #5fecc8, 0 1px #5fecc8;
+    /*왼쪽 오른쪽 위쪽 아래쪽에 text-shadow를 삽입 IE에서 크로스 브라우징 안되는 text-fill 효과 대신 사용*/
+    z-index: -1;
+}
+
+/*------------about 내용------------*/
+
+#about1 {
+    position: relative;
+    width: 100%;
+    height: 970px;
+    background: url(../img/pattern.png) center center repeat;
+    background-color: #e0e2ee;
+}
+
+/*about 창 일러스트*/
+#about1 img {
+    padding: 260px 9% 0 20%;
+    width:0;
+    height: auto;
+    opacity: 0;
+    float: left;
+    -webkit-transition: .7s ease;
+    -moz-transition: .7s ease;
+    -ms-transition: .7s ease;
+    -o-transition: .7s ease;
+    transition: .7s ease;
+}
+
+#about1 img.grow{
+    width: 25%;
+    opacity: 1;
+}
+
+
+/*about 텍스트박스*/
+#about1  #about_txtbox {
+    padding-top: 260px;
+    padding-right: 20%;
+    width: 26%;
+    height: 460px;
+    opacity: 0;
+    float: left;
+}
+
+#about_subtit {
+    padding: 20px 0;
+    color: #333;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.8em;
+    font-weight: 700;
+    text-align: left;
+    line-height: 1.5;
+}
+
+/*형광펜 효과*/
+mark{
+    background-color: #afbbff;
+}
+
+
+#about_txt {
+    color: #333;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.3em;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.8;
+}
+
+
 
 
 /*--------------contact 섹션--------------*/

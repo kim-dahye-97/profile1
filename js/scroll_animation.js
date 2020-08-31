@@ -40,13 +40,6 @@ $(window).load(function () {
             }
         }
 
-        //about섹션 내용 애니메이션
-        if (scrollTop >= $("#about1").offset().top * 0.9) {
-            $("#about1").children().first().addClass('grow');
-            $("#about1").children().last().delay(500).animate({'opacity':1},500,"easeOutCubic");
-        }
-        
-        
         //work 애니메이션
         for (i = 0; i < workListNum; i++) {
             if (scrollTop >= $('#work_list').children().eq(i).offset().top*0.98) {
@@ -55,6 +48,11 @@ $(window).load(function () {
             }
         }
         
+        //about섹션 내용 애니메이션
+        if (scrollTop >= $("#about1").offset().top) {
+            $("#about1").children().first().addClass('grow');
+            $("#about1").children().last().delay(500).animate({'opacity':1},500,"easeOutCubic");
+        }
         
         //contact 애니메이션
         if(scrollTop >= $("#contact1").offset().top*0.9){
