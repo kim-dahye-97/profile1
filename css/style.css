@@ -743,7 +743,7 @@ section#work .contents_tit h2 a:before{
 .work_txtbox .work_subtit {
     width: 100%;
     height: auto;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 
@@ -756,6 +756,14 @@ section#work .contents_tit h2 a:before{
     font-size: 4em;
     font-weight: 700;
     text-align: left;
+}
+
+.work_keyword{
+    color: #333;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.4em;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
 
 .work_txtbox .txt {
